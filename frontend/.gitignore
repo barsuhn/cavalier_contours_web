@@ -8,6 +8,7 @@ cavalier_contours_web_ffi/pkg
 cavalier_contours_web_ffi/target
 
 # Editor directories and files
+.idea/*
 .vscode/*
 !.vscode/extensions.json
 .idea

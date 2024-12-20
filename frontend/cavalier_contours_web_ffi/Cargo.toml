@@ -1,11 +1,11 @@
 
 [package]
-authors = ["jbuckmccready<jbuckmccready@gmail.com>"]
+authors = ["jbuckmccready<jbuckmccready@gmail.com>","barsuhn<bernd.barsuhn@web.de>"]
 description = "Wraps types and functions from cavalier_contours using wasm-bindgen for use in web apps."
 edition = "2018"
 license = "MIT OR Apache-2.0"
 name = "cavalier_contours_web_ffi"
-repository = "https://github.com/jbuckmccready/cavalier_contours_web_demo"
+repository = "https://github.com/barsuhn/cavalier_contours.git"
 version = "0.1.0"
 
 [lib]
@@ -15,7 +15,7 @@ crate-type = ["cdylib", "rlib"]
 default = ["console_error_panic_hook"]
 
 [dependencies]
-cavalier_contours = {git = "https://github.com/jbuckmccready/cavalier_contours", features = ["serde"]}
+cavalier_contours = {git = "https://github.com/barsuhn/cavalier_contours.git", features = ["serde"]}
 js-sys = "0.3"
 serde-wasm-bindgen = "0.5"
 wasm-bindgen = "0.2"
